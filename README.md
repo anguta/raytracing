@@ -3,6 +3,8 @@ The following repository contains the work for perfomance analysis of the Ray Tr
 
 
 # How to Run
+*Make sure you are in the gmclab station*
+
 CPU: cd src; g++ -std=c++17 CPU/Main.cpp -o main_cpp; ./main_cpp > cpu.ppm
 
 GPU Naive: cd src; nvcc -arch=sm_75 -O0 GPU/main_naive.cu -o main_naive; ./main_naive > naive.ppm
