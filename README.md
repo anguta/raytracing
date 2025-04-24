@@ -3,7 +3,7 @@ The following repository contains the work for perfomance analysis of the Ray Tr
 
 
 # How to Run
-*Make sure you are in the gmclab station*
+*Make sure you are in the gmclab station signed in with your ssh*
 
 CPU: cd src; g++ -std=c++17 CPU/Main.cpp -o main_cpp; ./main_cpp > cpu.ppm
 
